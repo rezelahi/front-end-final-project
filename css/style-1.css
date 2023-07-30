@@ -6,6 +6,12 @@
   .services {
     grid-template-columns: 1fr;
   }
+  .grid-col-1-2 {
+    grid-template-columns: 1fr;
+  }
+  .navbar-right {
+    grid-template-columns: auto;
+  }
   .about {
     display: grid;
     grid-template-columns: 1fr;
@@ -16,6 +22,10 @@
   .grid-col-auto-auto {
     grid-template-columns: 1fr;
   }
+  .topper-grid {
+    grid-template-columns: auto 1fr;
+  }
+
   .about-2 .container .d-grid:first-child {
     grid-template-columns: 1fr;
   }
@@ -39,43 +49,38 @@
     max-width: 540px;
   }
 
-
-
-
-
   .quote .container div:first-child {
     width: 100%;
     color: rgba(255, 255, 255, 0.9);
     padding-left: 10px;
     padding-right: 10px;
-}
+  }
 
-.grid-quote {
+  .grid-quote {
     grid-template-columns: 1fr;
     gap: 1rem;
     padding: 1.5rem 0;
-}
+  }
 
-.blog-grid {
+  .blog-grid {
     grid-template-columns: 1fr;
     gap: 1rem;
     row-gap: 2rem;
-}
-.student-testimony {
+  }
+  .student-testimony {
     width: 100%;
     margin: 1rem auto;
-}
-.gallery {
+  }
+  .gallery {
     grid-template-columns: 1fr;
-}
+  }
 
-.footer-grid {
+  .footer-grid {
     grid-template-columns: 1fr;
     row-gap: 2rem;
     padding-left: 10px;
     padding-right: 10px;
-}
-
+  }
 }
 
 @media (min-width: 768px) {
@@ -94,11 +99,4 @@
   .container {
     max-width: 1140px;
   }
-
-
-
-
-
-
-
 }
