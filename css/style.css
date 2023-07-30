@@ -1195,9 +1195,10 @@ text-decoration: none;
     cursor: pointer;
 }
 
-@media (min-width: 576px) {
+/* @media (min-width: 600px) {
   .container {
     max-width: 540px;
+    width: 100%;
   }
 }
 
@@ -1217,4 +1218,4 @@ text-decoration: none;
   .container {
     max-width: 1140px;
   }
-}
+} */

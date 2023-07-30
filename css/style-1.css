@@ -1,0 +1,104 @@
+@media (min-width: 600px) {
+  .container {
+    /* max-width: 560px; */
+    width: 100%;
+  }
+  .services {
+    grid-template-columns: 1fr;
+  }
+  .about {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .about > div:last-child {
+    display: none;
+  }
+  .grid-col-auto-auto {
+    grid-template-columns: 1fr;
+  }
+  .about-2 .container .d-grid:first-child {
+    grid-template-columns: 1fr;
+  }
+  .about-video {
+    height: 300px;
+  }
+  .grid-col-4 {
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
+  }
+  .courses > div:last-child {
+    grid-template-columns: 1fr;
+    padding: 1.5rem;
+    row-gap: 1rem;
+  }
+  .teachers-grid {
+    grid-template-columns: 1fr;
+    padding: 1.5rem;
+  }
+  .teachers-image-container {
+    max-width: 540px;
+  }
+
+
+
+
+
+  .quote .container div:first-child {
+    width: 100%;
+    color: rgba(255, 255, 255, 0.9);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.grid-quote {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1.5rem 0;
+}
+
+.blog-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    row-gap: 2rem;
+}
+.student-testimony {
+    width: 100%;
+    margin: 1rem auto;
+}
+.gallery {
+    grid-template-columns: 1fr;
+}
+
+.footer-grid {
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+
+
+
+
+
+
+
+}
